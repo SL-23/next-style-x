@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen-doc": "tsx ./src/genDocs.ts"
+    "gen-doc": "ts-node ./src/genDocs.ts"
   },
   "dependencies": {
     "next": "14.1.3",
